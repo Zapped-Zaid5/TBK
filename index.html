@@ -25,6 +25,7 @@
             padding: 20px;
             text-align: center;
             border-bottom: 3px solid #ff0000;
+            position: relative;
         }
         
         h1, h2, h3 {
@@ -97,15 +98,74 @@
             background-color: #1e0000;
             border-top: 3px solid #ff0000;
         }
+        
+        .character-image {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            border: 3px solid #ff0000;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .info-item {
+            background-color: #2a0000;
+            padding: 15px;
+            border: 1px solid #ff0000;
+        }
+        
+        .info-label {
+            font-weight: bold;
+            color: #ff0000;
+            margin-bottom: 5px;
+        }
+        
+        .image-caption {
+            text-align: center;
+            font-style: italic;
+            margin-top: 5px;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Acustrangulam</h1>
         <p>The Tissue Blanket Killer</p>
+        <img src="Acus.png" alt="Acustrangulam" class="character-image">
     </header>
     
     <div class="container">
+        <div class="section">
+            <h2>Personal Information</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <div class="info-label">Age</div>
+                    <div>21</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Years of Service</div>
+                    <div>19 years</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Assistant</div>
+                    <div>Wendigo</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Location</div>
+                    <div>A123 North Park, Tokyacutta Keroni</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Favorite Food</div>
+                    <div>Glucose and protein powder</div>
+                </div>
+            </div>
+        </div>
+        
         <div class="section">
             <h2>Aliases</h2>
             <ul>
@@ -127,6 +187,9 @@
         
         <div class="section">
             <h2>Before Supernatural Resurrection</h2>
+            <img src="Confrantation.png" alt="Heiki vs Acustrangulam" class="character-image">
+            <div class="image-caption">Heiki VS Acustrangulam</div>
+            
             <p>Acustrangulam was a prolific serial killer who harvested human tissue and created blankets from his victims. His methodology was meticulous - for each blanket, he required the tissue of three individuals approximately 5'5" in height. Records indicate he created 9,213 blankets in total, with 94 remaining unsold at the time of his capture.</p>
             
             <p>He became an urban legend - a figure who would strike silently in the night with a needle, abducting victims and removing their vocal cords so they couldn't scream. Within two days, their remains would become another blanket in his collection.</p>
@@ -134,10 +197,21 @@
             <p>Through his obsessive dedication to his craft, he developed revolutionary sewing techniques and even invented a sewing machine that could process human tissue in seconds. Despite severe sleep deprivation, he continued his work, prioritizing his "art" to the point of using his own face as a pincushion for needles.</p>
             
             <p>Detective Heiki pursued him for two years before the final confrontation. In a bloodied standoff, Heiki managed to shoot Acustrangulam in the heart, causing him to fall from the building to his presumed death.</p>
+            
+            <h3>Contributions to the Sewing Industry</h3>
+            <ul>
+                <li><strong>Revolutionary Speed Stitching Technique</strong> - Developed a method that makes sewing work approximately 4 times faster by making all cuts first through muscle memory and then passing the string.</li>
+                <li><strong>High-Speed Sewing Machine</strong> - Invented a sewing machine capable of producing complete clothing items in approximately 10 seconds.</li>
+                <li><strong>Efficient Material Processing</strong> - Created methods for preparing and preserving organic materials that were later adapted for use with conventional fabrics.</li>
+                <li><strong>Pattern Optimization</strong> - Developed mathematical formulas for minimal-waste pattern cutting, which were later adopted by mainstream fashion manufacturers.</li>
+                <li><strong>Tensile Strength Innovations</strong> - His stitching methods produced seams with unprecedented durability, influencing industrial sewing standards.</li>
+            </ul>
         </div>
         
         <div class="section">
             <h2>After Supernatural Resurrection</h2>
+            <img src="kambal.png" alt="Kambal Sui" class="character-image">
+            
             <p>Exposure to soul energy in the supernatural dimension brought Acustrangulam back to life and bonded him with a Wendigo entity. His face was healed, and he adopted a new voice and identity - Kambal Sui - to infiltrate the detective agency investigating his own murders, keeping Detective Heiki off his trail.</p>
             
             <p>Instead of operating from a fixed location, he now conducts his gruesome work primarily in Zen, a supernatural dimension inaccessible to normal humans without morphics. There, he and his Wendigo companion work together, doubling his productivity.</p>
